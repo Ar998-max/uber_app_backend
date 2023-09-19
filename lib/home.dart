@@ -15,6 +15,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
+        automaticallyImplyLeading: false,
       ),
       body: Column(
         children: [
